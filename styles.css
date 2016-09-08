@@ -1,0 +1,276 @@
+
+
+$speed: 200ms;
+$easing: cubic-bezier(0.7, 0, 0, 0.7);
+
+.navbar-toggle {
+  overflow: hidden;
+
+  .icon-bar {
+    transition: opacity, transform;
+    transition-duration: $speed;
+    transition-timing-function: $easing;
+  }
+
+  &:not(.collapsed) {
+    .icon-bar {
+      &:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      &:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+      }
+    }
+  }
+}
+
+  
+.btn {
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-radius: 0;
+  background-color:transparent;
+  color:white
+}
+
+.cta {
+  padding: 50px 0px 0px 0px;
+}
+
+
+.jumbotron {
+  text-align: center;
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+  color:white;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px ;
+  background-color:black;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://www.wallpaperswide.us/wp-content/uploads/2016/02/chernobyl-city-chernobyl-disaster-wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu{
+  position:fixed;
+  width:100%;
+  color:white;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px ;
+  border-color:white;
+  background-color:black;
+  text-align:right;
+  padding-top:0px;
+  z-index: 3;
+  height:auto;
+}
+
+.logo{
+  text-align: left;
+}
+
+.points{
+  text-align: right;
+  position:relative;
+  bottom:30px;
+  
+}
+
+ul
+{
+    list-style-type: none;
+  cursor:pointer;
+}
+
+a {
+    color: black;
+}
+
+
+.description {
+  text-align: center;
+  padding: 100px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  background-color: #F6F6F6;
+}
+
+.contentBox {
+  padding: 100px;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.contentBox.topBox1 {
+    
+   padding:100px;
+ border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  text-align:center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),  url("https://images.unsplash.com/photo-1467321638755-7246fd0dc1f3?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=899&q=80");
+  background-size:cover;
+  
+}
+
+.content1:hover{
+
+
+ background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),  url("https://images.unsplash.com/photo-1467321638755-7246fd0dc1f3?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=899&q=80");
+  background-size:cover;
+  
+}
+
+.content.content2{
+  padding:100px;
+ border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  text-align:center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("https://images.unsplash.com/photo-1465328610639-388f315eb31b?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80");
+  background-size:cover;
+  
+}
+
+.content2:hover{
+ background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),  url("https://images.unsplash.com/photo-1465328610639-388f315eb31b?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80");
+  background-size:cover;
+}
+
+.content.content3{
+  padding:100px;
+ border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  text-align:center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("https://images.unsplash.com/photo-1465628976988-fe43bda15798?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=798&q=80");
+   background-size:cover;
+  
+}
+
+.content3:hover{
+ background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),  url("https://images.unsplash.com/photo-1465628976988-fe43bda15798?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=798&q=80");
+  background-size:cover;
+}
+
+.content.content4{
+  padding:100px;
+ border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  text-align:center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("https://images.unsplash.com/photo-1465479423260-c4afc24172c6?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=800&q=80");
+  background-size:cover;
+  
+}
+
+.content4:hover{
+ background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),  url("https://images.unsplash.com/photo-1465479423260-c4afc24172c6?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=800&q=80");
+  background-size:cover;
+}
+
+
+
+
+
+.three{
+  
+   padding:100px;
+ border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  text-align:center;
+  background-color:#F6F6F6;
+  
+}
+
+.strap{
+  
+   padding:50px;
+ border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  text-align:center;
+  background-color:#3d565c;
+  color:white;
+  
+  
+}
+
+
+.form{
+  text-align: center;
+  color:black;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px ;
+  background-color:white;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.footer{
+  text-align: center;
+  color:white;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px ;
+  background-color:black;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+.contentsec2{
+  color:white;
+
+}
+
+div{
+
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  
+}
+
+
+h3 {
+ font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+h4 {
+ font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+p{
+  font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.right{
+  float:right;
+   
+  font-size: 105%;
+  
+  
+}
+
+.content1:hover { 
+    background-color: yellow;
+}
+
+.form{
+
+}
+
+.mainContent{
+ padding-top:0px; 
+  
+}
+
+.hideme
+{
+    opacity:0;
+}
